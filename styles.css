@@ -1,0 +1,280 @@
+@font-face{
+    font-family: 'Bariol Regular';
+    src: url('fonts/Bariol_Regular.otf');
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+body{
+    font-family: Bariol Regular;
+}
+
+.nav-link{
+    color: #fff!important;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.nav-link:hover{
+    background: #000;
+    border-radius: 5px;
+}
+
+.navbar-brand{
+    flex-grow: 1;
+}
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+
+.header-1{
+    min-width: 100%;
+    background: #f56262
+}
+
+.d-block{
+    width: 90%!important;
+    margin: 0 auto;
+}
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2{
+    color: white;
+}
+
+.pt{
+    padding: 50px 0; 
+}
+
+.header-2{
+    background: #eb4f4e;
+}
+
+.full-w-1{
+    background: #232324;
+    color: #fff;
+}
+
+.full-w-1 p{
+    color: #783535;
+    font-size: 1.3rem;
+}
+
+.creative-item{
+    text-align: center!important;
+    margin: 0 auto;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.full-w-3{
+    background: #6cc372;
+}
+
+.full-w-3 h2{
+    color: #fff;
+}
+
+.experts{
+    justify-content: center;
+}
+
+.expert-item{
+    text-align: center;
+    background: #fff;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+
+.expert-item h5{
+    font-size: 1.1rem;
+    color: #6cc372
+}
+
+.expert-item p{
+    color: #e13d2f
+}
+
+.expert-item>img{
+    border: 6px solid #6cc372;
+    border-radius: 50%;
+    width: 159px;
+    height: 159px;
+}
+
+.expert-item button{
+    min-width: 100%;
+    padding: 5px;
+    background: #6cc372;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.2rem;
+    letter-spacing: 2px; 
+}
+
+.expert-item button img{
+    position: absolute;
+    left: 10px;
+}
+
+.full-w-4 h2{
+    color: black;
+}
+
+.genuine-item{
+    text-align: center 
+}
+
+.genuine-item img{
+    padding-bottom: 20px; 
+}
+
+.full-w-4 .container>p{
+    padding-bottom: 10px;
+    color: green
+}
+
+.full-w-4 h2{
+    font-size: 50px;
+    color:  #616161
+}
+
+.full-w-4 img+p{
+    font-size: 22px;    
+}
+
+.full-w-4{
+    background: #f0f0f0;
+}
+
+.full-w-4 .row, .tarifs, .tarif-item{
+    margin-bottom: 0 !important;
+}
+
+.container .tarifs .tarif-item{
+    background: white;
+    margin: 5px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 1px -11px 20px rgb(0, 0, 0, 0.5);
+    font-size: 50px;
+
+}
+
+.tarifs{
+    display: flex;
+    justify-content: center;
+}
+
+.tarifs-2{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container .tarifs .tarif-item:nth-child(2) h3{
+    color: #eb4f4e;
+}
+
+.container .tarifs-2 .tarif-item{
+    background: white;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-size: 50px;
+}
+
+.container .tarifs-2 .tarif-item p{
+    border-top: 1px solid lightgrey;   
+}
+
+.container .tarifs-2 .tarif-item .order{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.container .tarifs-2 .tarif-item .order button{
+    height: 50px;
+    width: 100px;
+    font-size: 50%
+}
+
+.pend{
+    padding: 10px;
+    color: rgb(255, 0, 0);
+}
+
+.full-w-6{
+    background-color: rgb(221, 60, 60);
+}
+
+.container .carousel-inner .carousel-item i{
+    display: flex;
+    justify-content: center;
+}
+
+.container .carousel-inner .carousel-item .text .wh{
+    color: white;
+}
+
+.container .carousel-inner .carousel-item .text a{
+    color: black;
+}
+
+.container .carousel-inner .carousel-item .text{
+    display: flex;
+    justify-content: center;
+}
+
+.niz{
+    background-color: black;
+}
+
+.container .sulka p{
+    color: white;
+}
+
+.container .sulka a{
+    color: rgb(221, 60, 60)
+}
+
+.container .sulka i{
+    align-content: flex-end;
+    background-color: white;
+    color: rgb(221, 60, 60);
+}
+
+.carta{
+    background-image: url(img/map.png);
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.600);
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container .contact a{
+    color: rgb(221, 60, 60);
+}
