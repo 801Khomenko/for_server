@@ -43,3 +43,12 @@ header{
 .dropdown-item:last-child{
     border-bottom: none
 }
+
+.carousel{
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+.verh {
+   
+}
