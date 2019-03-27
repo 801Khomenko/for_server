@@ -36,3 +36,10 @@ header{
     justify-content: flex-end;
 }
 
+.dropdown-item{
+    border-bottom: 1px solid lightgrey;
+}
+
+.dropdown-item:last-child{
+    border-bottom: none
+}
