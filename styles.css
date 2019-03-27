@@ -4,8 +4,7 @@
 }
 
 body{
-    
-    
+    width: 100%;
 }
 
 a{
@@ -18,29 +17,22 @@ li{
 }
 
 header{
-    display: flex;
-    justify-content: center;
+
 }
 
 .logo{
-    width: 15%;
-    height: 15%;
-    margin: 5px;
     flex-grow: 1;
+}
+
+.logo img{
+    width: 70px;
 }
 
 .nav-item .fas{
     color: white;
 }
 
-.carusel{
-    display: flex;
-    justify-content: center;
-    border-top: 2px solid white;
-    max-width: 100%;
+.flex-end{
+    justify-content: flex-end;
 }
 
-.carusel .carousel-inner .img{
-    width: 1000px;
-    height: 630px;
-}
