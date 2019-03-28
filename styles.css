@@ -83,8 +83,9 @@ header{
   
 }
 
-.verh button:hover .verh>button>a{
+.verh button:hover a{
     color: white;
     font-weight: bold;
+    text-decoration: none;
 }
 
