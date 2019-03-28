@@ -54,7 +54,7 @@ header{
     width: 50%;
 }
 
-.verh img{
+.verh .menu-acs img{
     width: 550px;
     height: auto;
 }
@@ -88,4 +88,12 @@ header{
     font-weight: bold;
     text-decoration: none;
 }
+
+.verh .menu-verh img{
+    width: 550px;
+    height: auto;
+    text-align: right
+}
+
+
 
