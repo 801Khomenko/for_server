@@ -50,5 +50,32 @@ header{
 }
 
 .verh {
-   
+    position: relative;
+    width: 50%;
+}
+
+.verh img{
+    width: 100%;
+    height: 100%;
+}
+
+.verh .btn1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.verh .btn1:hover {
+  background-color: black;
+  color: white;
+  font-weight: bold;
 }
