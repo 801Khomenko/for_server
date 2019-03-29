@@ -54,7 +54,7 @@ li{
 
 .verh .btn1{
     position: absolute;
-    top: 90%;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
@@ -103,7 +103,7 @@ li{
 
 .menu-krossu{
     padding-left: 15px;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .menu-krossu img{
     height: auto;
