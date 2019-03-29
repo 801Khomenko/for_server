@@ -1,7 +1,4 @@
-@font-face{
-    font-family: 'Bariol Regular';
-    src: url('fonts/Bariol_Regular.otf');
-}
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body{
     width: 100%;
@@ -51,6 +48,7 @@ header{
 
 .verh {
     position: relative;
+    padding-bottom: 25px;
 }
 
 .verh .menu-left img{
@@ -115,19 +113,43 @@ header{
     width: 530px;
 }
 
+.ab{
+    background: rgba(0, 0, 0, 0.027);
+}
+
 .about-krossline{
-    padding-top: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     font-size: 15px;
 }
 
-.about-krossline p{
-    height: 160%;
-}
-
-.about-krossline span{
+.about-krossline .helo{
     display: flex;
     justify-content: center;
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
+}
+
+.about-krossline .helo h2{
+    font-size: 20px;
+}
+
+.about-krossline p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.ct{
+    background-color: #343a40!important;
+    color: white
+}
+
+.ct .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct .contact h2{
+    font-size: 10px;
+    flex-grow: 1;
+    align-items: center;
 }
