@@ -1,0 +1,81 @@
+/* На кожну сторінку */
+
+body{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.logo img{
+    width: 70px;
+}
+
+.nav-item .fas{
+    color: white;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.dropdown-item{
+    border-bottom: 1px solid lightgrey;
+}
+
+.dropdown-item:last-child{
+    border-bottom: none
+}
+
+.ct{
+    background-color: #343a40!important;
+    color: white
+}
+
+.ct .contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ct .contact-item a{
+    text-decoration: none;
+    color: white;
+}
+
+.ct .contact-item .fa-instagram:hover{
+    font-size: 1.2rem;
+    color: rgb(255, 123, 0);
+}
+
+.ct .contact-item .fa-vk:hover{
+    font-size: 1.3rem;
+    color: rgb(0, 60, 255);
+}
+
+.ct .contact-item .fa-telegram:hover{
+    font-size: 1.2rem;
+    color: lightblue;
+    background: white;
+    border-radius: 100%;
+}
+
+.ct .contact h2{
+    font-size: 10px;
+    flex-grow: 1;
+    align-items: center;
+    line-height: inherit;
+    padding: 10px;
+    margin: 0
+}
+/* На кожну сторінку */

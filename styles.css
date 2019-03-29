@@ -13,10 +13,6 @@ li{
     list-style: none;
 }
 
-header{
-
-}
-
 .logo{
     flex-grow: 1;
 }
@@ -49,6 +45,7 @@ header{
 .verh {
     position: relative;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .verh .menu-left img{
@@ -165,7 +162,7 @@ header{
 
 .ct .contact-item .fa-telegram:hover{
     font-size: 1.2rem;
-    color: blue;
+    color: lightblue;
     background: white;
     border-radius: 100%;
 }
