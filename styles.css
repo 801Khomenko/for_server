@@ -91,7 +91,7 @@ header{
 }
   
 .menu-shtanu{
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .verh .menu-right img{
@@ -103,11 +103,31 @@ header{
 }
 
 .verh .menu-verh img{
-    width: 100%;
+    width: 103%;
 }
 
 .menu-krossu{
-    height: 337.5px;
-    width: 420px;
-    padding-top: 30px;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+.menu-krossu img{
+    height: auto;
+    width: 530px;
+}
+
+.about-krossline{
+    padding-top: 100px;
+    font-size: 15px;
+}
+
+.about-krossline p{
+    height: 160%;
+}
+
+.about-krossline span{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
 }
