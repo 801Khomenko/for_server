@@ -49,13 +49,12 @@ li{
 }
 
 .ct .contact-item a{
-    font-size: 1.2rem;
     text-decoration: none;
     color: white;
 }
 
 .ct .contact-item .fa-instagram:hover{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: rgb(255, 123, 0);
 }
 
@@ -72,7 +71,7 @@ li{
 }
 
 .ct .contact h2{
-    font-size: 15px;
+    font-size: 10px;
     flex-grow: 1;
     align-items: center;
     line-height: inherit;
@@ -80,12 +79,3 @@ li{
     margin: 0
 }
 /* На кожну сторінку */
-
-.tovaru{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
-    padding-bottom: 389px;
-    padding-top: 389px;
-}
