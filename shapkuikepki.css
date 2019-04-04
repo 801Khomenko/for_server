@@ -79,3 +79,25 @@ li{
     margin: 0
 }
 /* На кожну сторінку */
+
+.tovaru{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.tovaru-item{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin: 0 auto;
+}
+
+.tovaru-item .inform{
+    justify-content: center;
+    align-items: center;
+}
+
+.tovaru-item img{
+    margin: 15px;
+    height: 360px;
+}
