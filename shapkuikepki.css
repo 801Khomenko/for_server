@@ -2,7 +2,6 @@
 
 body{
     width: 100%;
-    background: url(img/background.png)
 }
 
 a{
@@ -281,4 +280,8 @@ li{
 	.portfolio-item {
 		flex-basis: 33.333333333%;			
 	}
+}
+
+.portfolio-item-wrap .portfolio-item .portfolio-item-wrap .portfolio-item-inner .portfolio-heading .prc{
+	font-size: 100px;
 }
