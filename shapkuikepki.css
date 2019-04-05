@@ -83,22 +83,25 @@ li{
 .tovaru{
     justify-content: center;
     margin: 0 auto;
-    padding-bottom: 230px;
+    padding-bottom: 550px;
 }
 
 .tovaru-item{
     display: flex;
     justify-content: center;
-    padding-top: 25px;
-    margin: 0 auto;
-}
-
-.tovaru-item .inform{
-    justify-content: center;
     align-items: center;
+    padding-top: 25px;   
 }
 
 .tovaru-item img{
-    margin: 20px;
     height: 250px;
+    margin: 25px;
+}
+
+.tovaru-item a{
+    margin-top: -20px !important;
+    padding-left: 25px;
+    display: flex;
+    text-decoration: none;
+    color: black;
 }

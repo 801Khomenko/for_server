@@ -37,6 +37,10 @@ li{
     border-bottom: none
 }
 
+.dropdown-item:hover > .dropdown-menu{
+    display: block;
+}
+
 .carousel{
     border-top: 10px solid white;
     border-bottom: 10px solid white;
@@ -175,3 +179,4 @@ li{
     padding: 10px;
     margin: 0
 }
+
