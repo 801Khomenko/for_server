@@ -180,3 +180,13 @@ li{
     margin: 0
 }
 
+.about-krossline .up{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 30px;
+}
+
+.about-krossline .up i{
+    border-radius: 50%;
+    background: white;
+}
