@@ -180,13 +180,25 @@ li{
     margin: 0
 }
 
-.about-krossline .up{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 30px;
+/* Стрелка */
+.about-krossline .up a{
+    text-decoration: none;
 }
 
-.about-krossline .up i{
-    border-radius: 50%;
-    background: white;
+.fa-chevron-up{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
 }
+
+.fa-chevron-up:before{
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 10px;
+    font-size: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 25px;
+   color: grey
+}
+

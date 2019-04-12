@@ -1,3 +1,1 @@
-function up(){
-    var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
-}
+"use strict";!function(){function t(t){var e=t.getRangeAt(0),n=e.cloneContents(),a=document.createElement("div");return a.appendChild(n),a.innerHTML}function e(e){var a=window.getSelection(),o=a.toString();if(!(o.length<n)){var c=t(a),i=o+" Подробнее: "+document.location.href,r=c+'<span> </span><a href="'+document.location.href+'">Подробнее:&nbsp;'+document.location.href+"</a>";e.clipboardData.setData("text/plain",i),e.clipboardData.setData("text/html",r),e.preventDefault()}}var n=20;document.addEventListener("copy",e),document.addEventListener("cut",e)}();
