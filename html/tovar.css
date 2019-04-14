@@ -86,7 +86,8 @@ li{
     align-items: center;
     mso-yfti-irow:0;
     mso-yfti-firstrow:yes;
-    height:26.75pt
+    height:26.75pt;
+    border: 1px solid darkgrey
 }
 
 .MsoNormalTable td{
@@ -95,7 +96,7 @@ li{
     align-items: center;
     width:71.65pt;
     border:none;
-    border-top:solid #E9ECEF 1.0pt;
+    
     mso-border-top-alt:solid #E9ECEF .75pt;
     padding:0cm 0cm 0cm 0cm;
     height:26.75pt"
@@ -111,65 +112,46 @@ li{
     line-height:150%
 }
 
-* {box-sizing: border-box;}
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.bx-wrapper {
-  width: 500px;
-  margin: 0 auto;
-  position: relative;
-}
-.bx-wrapper img {
-  width: 100%;
-  max-width: 100%;
-  display: block;
-}
-#bx-pager {
-  margin-top: 20px;
-  text-align: center;
-}
-#bx-pager a {margin: 0 3px;}
-#bx-pager a img {
-  padding: 3px;
-  border: 1px solid #ccc;
-  width: 80px;
-  transition: .4s ease-in-out;
-}
-#bx-pager a.active img {border: 1px solid #D4104E;}
-.bx-prev, .bx-next {
-  text-decoration: none;
-  position: absolute;
-  top: 50%;
-  margin-top: -40px;
-  background: white;
-  color: #666;
-  width: 30px;
-  height: 80px;
-  text-align: center;
-  transition: .4s linear;
-  z-index: 10;
-  cursor: pointer;
-}
-.bx-prev {
-  left: 0;
-  border-radius: 0 5px 5px 0;
-}
-.bx-next {
-  right: 0;
-  border-radius: 5px 0 0 5px;
-}
-.bx-prev:before, .bx-next:before {
-  font-family: "FontAwesome";
-  font-size: 30px;
-  line-height: 80px;
-}
-.bx-next:before {content: "\f105";}
-.bx-prev:before {content: "\f104";}
-
 .left img{
     margin: 50px;
-    max-width: 50%;
+    max-width: 75%;
 }
+
+.right{
+    margin: 50px;
+    background: rgb(236, 236, 236);
+    padding: 20px;
+}
+
+#opus{
+    padding-top: 5px;
+    font-size: 13px;
+    margin-bottom: -3px!important;
+}
+
+.form-control{
+    margin-right: 5px;
+    max-width: 100px;
+    height: 46px;
+}
+
+.buy-btn{
+    max-width: 141px;
+    background: #ee1c25;
+    color: white;
+    border: none;
+    margin-right: 20px;
+}
+
+.buy-btn:hover{
+    background: #e92a33;
+}
+
+.size{
+    margin-bottom: 250px;
+}
+
+.sitka-h2{
+    font-size: 20px
+}
+
