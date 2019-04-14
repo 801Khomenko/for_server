@@ -108,7 +108,7 @@ li{
 }
 .portfolio-item img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 	opacity: .75;
 	transition: .5s ease-in-out;
 }

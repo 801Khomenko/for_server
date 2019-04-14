@@ -168,3 +168,8 @@ ul {
 }
 .bx-next:before {content: "\f105";}
 .bx-prev:before {content: "\f104";}
+
+.left img{
+    margin: 50px;
+    max-width: 50%;
+}
