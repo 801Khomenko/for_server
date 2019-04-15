@@ -13,7 +13,6 @@ window.onload = function() {
         let form = document.querySelector('#modal_form');
 
         form.style.display = 'block';
-        overlay.style.display = 'block';
 
         let close = document.querySelector('#modal_close');
 
