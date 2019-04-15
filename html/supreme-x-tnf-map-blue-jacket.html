@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="tovar.css">
     <link rel="stylesheet" href="sliider.css">
     <!-- Slider -->
-    <link href="путь_к_файлу_на_вашем_сервере/jquery.bxslider.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-    <script src="../bxslider-4-4.2.12/dist/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="slider-pro-master/dist/css/slider-pro.min.css"/>
 </head>
 <body>
 <!--На всі-->
@@ -92,15 +90,34 @@
 <div class="size col-xs-12">
     <div class="all row">
         <div class="col left">
-            <img src="kyrtku/supreme-x-tnf-map-blue-jacket-1.jpg" alt="">
+            <div class="slider-pro">
+                <div class="sp-slides">
+                    <div class="sp-slide">
+                        <img class="sp-image" src="kyrtku/supreme-x-tnf-map-blue-jacket-1.jpg"/>
+                        <img class="sp-thumbnail" src="kyrtku/supreme-x-tnf-map-blue-jacket-1.jpg"/>
+                    </div>
+            
+                    <div id="my-slide" class="sp-slide">
+                        <img class="sp-image" src="kyrtku/supreme-x-tnf-map-blue-jacket-2.jpg"/>
+                        <img class="sp-thumbnail" src="kyrtku/supreme-x-tnf-map-blue-jacket-2.jpg"/>
+                    </div>
+            
+                    <div class="sp-slide">
+                        <img class="sp-image" src="kyrtku/supreme-x-tnf-map-blue-jacket-3.jpg"/>
+                        <img class="sp-thumbnail" src="kyrtku/supreme-x-tnf-map-blue-jacket-3.jpg"/>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="col right">
             <div class="about">
                 <div class="buy row">
                     <h2 class="col"><strong>1400 ГРН</strong> </h2>
-                    <input type="number" placeholder="1" id="example-number-input" class="form-control col" min="1" max="10">
-                    <button class="buy-btn col"><strong>ЗАМОВИТИ</strong></button>
+                    <form action="form.php">
+                        <input type="number" placeholder="1" id="example-number-input" class="form-control col" min="1" max="10">
+                        <button class="buy-btn col"><strong>ЗАМОВИТИ</strong></button>
+                    </form>
                 </div>
                 
                 <div class="info">
@@ -211,20 +228,31 @@
     </div>
 </div>
 
-<div id="modal_form"> 
-    <span id="modal_close">&times</span>
-    <form>
-      <label for="name">Введіть своє ім'я</label><br>
-      <input type="text" class="form-control" id="name" placeholder="YOUR NAME">
-      <label for="email">Введіть своє ім'я</label><br>
-      <input type="text" class="form-control" id="email" placeholder="YOUR EMAIL"><br>
-      <label for="pay">Спосіб оплати</label>
-      <input type="radio" name="pay" value="Online">Онлайн
-      <input type="radio" name="pay" value="Offline">Офлайн
-      <input type="checkbox">Підтверджую
-      <input type="button" value="Підтвердити замовлення">
+<!--<div id="modal_form"> 
+    <span id="modal_close">&times;</span> 
+    <form method="post">
+        <label for="name">Введіть своє ім'я та прізвище</label><br>
+        <input type="text" class="form-control" id="name" placeholder="Ім'я та прізвище" name="user-name">
+        <p class="w-name red"></p>
+        <label for="tel">Введіть свій телефон</label>
+        <input type="text" class="form-control" id="tel" placeholder="Номер у форматі +380XXXXXXXXX" name="tel">
+        <p class="w-tel red"></p>
+        <label for="region">Введіть область</label>
+        <input type="text"class="form-control" id="region" placeholder="Введіть область" name="region">
+        <p class="w-region red"></p>
+        <label for="town">Введіть місто доставки</label>
+        <input type="text"class="form-control" id="town" placeholder="Введіть своє місто" name="user-town">
+        <p class="w-town red"></p>
+        <label for="town">Номер відділення</label>
+        <input type="text"class="form-control" id="post" placeholder="Введіть номер відділення Нової пошти" name="user-number">
+        <p class="w-post red"></p>
+        <input type="hidden" name="size">
+        <input type="hidden" name="model">
+        <label class="switches"><input type="checkbox" name="confirm" class="submit-order" id="confirm">&nbsp;Замовлення підтверджую</label>
+        <span class="w-check red"></span>
+        <input type="submit" class="pay" value="Підтвердити замовлення">
     </form>
-</div>
+</div>-->
 
 <div class="ct">
     <div class="contact row">
@@ -238,6 +266,13 @@
 </div>
 
 <!-- JavaScript -->
+<script>
+
+</script>
+
+<script src="slider-pro-master/libs/js/jquery-1.11.0.min.js"></script>
+<script src="slider-pro-master/dist/js/jquery.sliderPro.min.js"></script>
+<script src="slider.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
