@@ -160,6 +160,31 @@ li{
 
 /* PHP */
 
+input[type=text], input[type=number]{
+    padding: 0;
+    box-sizing: border-box;
+    width: 70px;
+    text-align: center;
+}
+
+input[type=submit]{
+    margin-left: 10px;
+    padding: 15px;
+    background: rgba(0, 0, 255);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+input[type=submit]:hover{
+    background: #000;
+}
+
+input{
+    height: 50px;
+}
+
 #modal_form {
     width: 500px; 
     height: 500px;  
