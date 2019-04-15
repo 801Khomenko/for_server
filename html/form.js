@@ -1,15 +1,16 @@
 window.onload = function() {
-    let btn = document.querySelector('.submit');
+    let btn_buy = document.querySelector('.buy-btn')
+    let btn = document.querySelector('.pay');
 
     function stop(event){
         event.preventDefault();
     }
+    btn_buy.addEventListener('click', stop, false);
 
-    btn.addEventListener('click', stop, false);
+    
 
-    btn.addEventListener('click', function(){
+    btn_buy.addEventListener('click', function(){
         let form = document.querySelector('#modal_form');
-        let overlay = document.querySelector('#overlay');
 
         form.style.display = 'block';
         overlay.style.display = 'block';
@@ -23,4 +24,6 @@ window.onload = function() {
             overlay.style.display = 'none';
         })
     })
+
+    btn.addEventListener('click', stop, false);
 }

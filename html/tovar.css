@@ -99,7 +99,7 @@ li{
     
     mso-border-top-alt:solid #E9ECEF .75pt;
     padding:0cm 0cm 0cm 0cm;
-    height:26.75pt"
+    height:26.75pt;
 }
 
 .MsoNormalTable p{
@@ -134,7 +134,6 @@ li{
 
 .form-control{
     margin-right: 5px;
-    max-width: 100px;
     height: 46px;
 }
 
@@ -161,15 +160,14 @@ li{
 /* PHP */
 
 #modal_form {
-    width: 500px; 
-    height: 500px;  
+    width: 500px;   
     border-radius: 5px;
     box-shadow: 0px 0px 39px 5px rgba(0,0,0,1);
     background: #fff;
     position: fixed; 
     top: 50%; 
     left: 50%;
-    margin-top: -150px;
+    margin-top: -280px;
     margin-left: -150px;
     display: none;
     z-index: 5;
