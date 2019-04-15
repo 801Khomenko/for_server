@@ -6,7 +6,7 @@ jQuery( document ).ready(function( $ ) {
 		buttons: false,
 		waitForLayers: true,
 		fade: true,
-		autoplay: false,
+		autoplay: true,
     	autoScaleLayers: false,
     	loop: true,
 	})
