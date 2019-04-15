@@ -1,0 +1,4 @@
+https://github.com/bqworks/slider-pro/blob/master/docs/api.md#thumbnailheight
+https://github.com/bqworks/slider-pro/blob/master/docs/api.md#thumbnailwidth
+https://github.com/bqworks/slider-pro/blob/master/docs/modules.md#14-thumbnails
+https://github.com/bqworks/slider-pro
